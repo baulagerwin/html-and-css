@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  margin: 300px 0px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.current {
+  background-color: #087f5b;
+}
+
+.current span {
+  color: #fff;
+}
+
+.page {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page,
+.dotdotdot {
+  font-size: 22px;
+  text-decoration: none;
+  color: #343a40;
+}
+
+.page:hover,
+.page:active {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #087f5b;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #087f5b;
+  border: 1px solid white;
+}
+
+.btn:hover .btn__icon--left,
+.btn:active .btn__icon--left,
+.btn:hover .btn__icon--right,
+.btn:active .btn__icon--right {
+  background-color: #087f5b;
+  stroke: #fff;
+}
+
+.btn__icon--left,
+.btn__icon--right {
+  height: 30px;
+  width: 30px;
+  stroke: #087f5b;
+}

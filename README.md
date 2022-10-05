@@ -11,3 +11,5 @@
 - [Challenge #9](https://c-nine.netlify.app/): Design
 - [Challenge #10](https://c-ten.netlify.app/): Accordion
 - [Challenge #11](https://c-eleven.netlify.app/): Carousel
+- [Challenge #12](https://c-twelve.netlify.app/): Table
+- [Challenge #13](https://c-thirteen.netlify.app/): Pagination
