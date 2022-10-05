@@ -4,7 +4,140 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Challenge 11</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="carousel">
+      <button class="carousel__btn--left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 carousel__icon--left"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button class="carousel__btn--right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 carousel__icon--right"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+      <ul class="pagination">
+        <li class="pagination__item"></li>
+        <li class="pagination__item"></li>
+        <li class="pagination__item"></li>
+        <li class="pagination__item"></li>
+      </ul>
+      <div class="testimonies">
+        <ul id="testimonies">
+          <li class="testimony">
+            <img
+              src="maria.jpg"
+              alt="first-customer"
+              class="testimony__image"
+            />
+            <blockquote class="quote">
+              <p class="quote__paragraph">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+                aspernatur eum quia doloribus perspiciatis unde veritatis, odit
+                sed reiciendis omnis. Pariatur odio numquam beatae error enim
+                magni, illum quidem ducimus!
+              </p>
+              <div class="customer">
+                <p class="customer__name">Maria de Almeida</p>
+                <p class="customer__job">
+                  Senior Product Manager at EDP Comercial
+                </p>
+              </div>
+            </blockquote>
+          </li>
+          <li class="testimony">
+            <img
+              src="nicolas.jpg"
+              alt="second-customer"
+              class="testimony__image"
+            />
+            <blockquote class="quote">
+              <p class="quote__paragraph">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+                aspernatur eum quia doloribus perspiciatis unde veritatis, odit
+                sed reiciendis omnis. Pariatur odio numquam beatae error enim
+                magni, illum quidem ducimus!
+              </p>
+              <div class="customer">
+                <p class="customer__name">Mario de Alpombra</p>
+                <p class="customer__job">Software Engineeer at EDP Comercial</p>
+              </div>
+            </blockquote>
+          </li>
+          <li class="testimony">
+            <img
+              src="maria.jpg"
+              alt="third-customer"
+              class="testimony__image"
+            />
+            <blockquote class="quote">
+              <p class="quote__paragraph">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+                aspernatur eum quia doloribus perspiciatis unde veritatis, odit
+                sed reiciendis omnis. Pariatur odio numquam beatae error enim
+                magni, illum quidem ducimus!
+              </p>
+              <div class="customer">
+                <p class="customer__name">Maria de Almeida</p>
+                <p class="customer__job">
+                  Senior Product Manager at EDP Comercial
+                </p>
+              </div>
+            </blockquote>
+          </li>
+          <li class="testimony">
+            <img
+              src="nicolas.jpg"
+              alt="fourth-customer"
+              class="testimony__image"
+            />
+            <blockquote class="quote">
+              <p class="quote__paragraph">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+                aspernatur eum quia doloribus perspiciatis unde veritatis, odit
+                sed reiciendis omnis. Pariatur odio numquam beatae error enim
+                magni, illum quidem ducimus!
+              </p>
+              <div class="customer">
+                <p class="customer__name">Mario de Alpombra</p>
+                <p class="customer__job">Software Engineeer at EDP Comercial</p>
+              </div>
+            </blockquote>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
