@@ -19,14 +19,6 @@ body {
   gap: 20px;
 }
 
-.current {
-  background-color: #087f5b;
-}
-
-.current span {
-  color: #fff;
-}
-
 .page {
   border-radius: 50%;
   width: 50px;
@@ -45,7 +37,8 @@ body {
 }
 
 .page:hover,
-.page:active {
+.page:active,
+.page.current {
   background-color: #087f5b;
   color: #fff;
 }

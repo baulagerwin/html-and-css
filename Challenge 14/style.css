@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("hero.jpg");
+  background-size: cover;
+}
+
+.header__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 1.2;
+  color: white;
+}
+
+.header__text div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.header__text div p {
+  line-height: 1.8;
+  color: white;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  color: #fff;
+}
+
+.btn {
+  padding: 16px 32px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: orangered;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+}
+
+section {
+  font-size: 24px;
+  padding: 40px 0px;
+}
