@@ -7,5 +7,77 @@
 body {
   font-family: "Inter", sans-serif;
   color: #343a40;
-  line-height: 1;
+  font-size: 24px;
+
+  display: grid;
+  grid-template-columns: 80px 400px 1fr 250px;
+  grid-template-rows: 80px 1fr;
+  height: 100vh;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #343a40;
+  color: #fff;
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
+  color: white;
+}
+
+menu {
+  background-color: #7048e8;
+  color: #fff;
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 0 40px;
+}
+
+button {
+  font-size: 16px;
+  background-color: #5f3dc4;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+button:last-child {
+  background-color: red;
+  margin-left: auto;
+}
+
+section {
+  background-color: #e9ecef;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+  overflow: scroll;
+}
+
+.email {
+  background-color: #adb5bd;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+aside {
+  background-color: #e9ecef;
+}
+
+nav,
+main,
+section,
+aside {
+  padding-top: 24px;
 }
