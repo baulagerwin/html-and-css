@@ -6,6 +6,8 @@
 
 html {
   font-size: 62.5%;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -64,6 +66,31 @@ body {
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+.hamburger-menu {
+  list-style: none;
+  display: none;
+}
+
+ion-icon[name="close-outline"],
+ion-icon[name="menu-outline"] {
+  font-size: 5rem;
+}
+
+.sticky .header {
+  position: fixed;
+  top: 0;
+  padding: 0 4.8rem;
+  width: 100vw;
+  height: 8rem;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.05);
+}
+
+.sticky .section-hero {
+  margin-top: 9.6rem;
 }
 
 /* hero section */

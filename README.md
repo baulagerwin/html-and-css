@@ -1,4 +1,4 @@
-# html-and-css
+# HTML-and-CSS
 
 - [Challenge #1](https://c-one.netlify.app): Related Posts
 - [Challenge #2](https://c-two.netlify.app): Converse Chuck Taylor
@@ -15,3 +15,8 @@
 - [Challenge #13](https://c-thirteen.netlify.app/): Pagination
 - [Challenge #14](https://c-fourteen.netlify.app/): Hero Section
 - [Challenge #15](https://c-fifteen.netlify.app/): Web App Layout
+- [Final Project](https://fnl-project.netlify.app/): Omnifood
+
+## Certificate of Completion
+
+![Certificate](certificate-of-completion.jpg)

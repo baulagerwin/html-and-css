@@ -125,12 +125,64 @@ High-res laptop or desktop: 1920 x 1080
 
 /* below 700px */
 @media (max-width: 43.75em) {
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+    position: relative;
+  }
+
   .grid {
     column-gap: 5.2rem;
     row-gap: 7.4rem;
   }
 
-  .main-nav {
+  .main-nav-list {
+    /* opacity: 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 100vw;
+
+    /* transform: translateX(100%); */
+    pointer-events: auto;
+
+    /* transition: opacity 1s ease; */
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2.4rem;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .hamburger-menu ion-icon[name="close-outline"] {
+    display: none;
+  }
+
+  .header.open .main-nav-list {
+    /* opacity: 1; */
+    transform: translateX(-100vw);
+  }
+
+  .header.open ion-icon[name="close-outline"] {
+    display: block;
+  }
+
+  .header.open ion-icon[name="menu-outline"] {
     display: none;
   }
 
@@ -168,6 +220,10 @@ High-res laptop or desktop: 1920 x 1080
 
   .meal-attributes {
     gap: 2.8rem;
+  }
+
+  .section-testimonials {
+    padding: 2rem 0;
   }
 }
 
